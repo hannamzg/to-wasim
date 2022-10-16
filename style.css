@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077b6;
+  width: 100%;
+  min-height: 300px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+}
+
+nav{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titelFirstPage{
+    color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    
+}
+
+#cardIcon{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.SecondTitelFirstPage{
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: fit-content;
+    color: whitesmoke;
+    background-color: #4895ef;
+    border-radius: 10px;
+    box-shadow: -7px 1px 10px 5px rgba(113, 113, 113, 0.81);
+}
+
+.theDiscrishin{
+    margin: 20px auto;
+}
+
+.pargrafhs{
+    margin: 25px auto;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-inline-start: 30px;
+}
+li img{
+    width: 30px;
+}
+
+li h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-block-start: 10px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+#cardImg{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+    header{
+        min-height: 200px;
+      }
+      
+      .titelFirstPage{
+          font-size: 25px;
+      }
+      
+      #cardIcon{
+          margin-top: 10px;
+          font-size: 30px;
+      }
+      
+      
+      
+      .SecondTitelFirstPage{
+          max-width: 250px;
+          padding: 20px;
+          margin: 30px auto;
+          text-align: center;
+          font-size: 19px;
+        
+      }
+      
+      .theDiscrishin{
+          margin: 20px auto;
+      }
+      
+      .pargrafhs{
+        max-width: 300px;
+          margin: 25px auto;
+          font-weight: 200;
+          font-size: 18px;
+      }
+      
+      li{
+          display: flex;
+          align-items: center;
+          list-style: none;
+          margin-inline-start: 30px;
+      }
+      li img{
+          width: 20px;
+      }
+      
+      li h4{
+          font-size: 19px;
+          font-weight: 500;
+          margin-block-start: 10px;
+          font-family: 'Noto Sans Hebrew', sans-serif;
+      }
+      
+      #cardImg{
+          width: 150px;
+          height: 150px;
+      }
+}
