@@ -69,6 +69,7 @@ li{
     align-items: center;
     list-style: none;
     margin-inline-start: 30px;
+    margin-block-start: 20px;
 }
 li img{
     width: 30px;
@@ -85,6 +86,62 @@ li h4{
     width: 200px;
     height: 200px;
 }
+
+
+#phonePhotosBigDiv{
+    position: relative;
+    margin-block-start: 60px;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+#divHaveDivsWithNoIcone{
+    position: relative;
+    display: flex;
+}
+
+.phonephotos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 300px;
+    margin: 0 50px;
+}
+
+
+.phonephotos img{
+    width: 200px;
+    height: 300px;
+}
+
+#leftBtn{
+    position: absolute;
+    right: 12px;
+    z-index: 2;
+    font-size: 50px;
+    cursor: pointer;
+    display: block;
+}
+#rightBtn{
+    z-index: 2;
+    position: absolute;
+    left: 12px;
+    font-size: 50px;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -120,7 +177,7 @@ li h4{
       }
       
       .pargrafhs{
-        max-width: 300px;
+         max-width: 300px;
           margin: 25px auto;
           font-weight: 200;
           font-size: 18px;
@@ -131,6 +188,7 @@ li h4{
           align-items: center;
           list-style: none;
           margin-inline-start: 30px;
+          margin-block-start: 10px;
       }
       li img{
           width: 20px;
