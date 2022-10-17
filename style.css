@@ -120,29 +120,90 @@ li h4{
 
 #leftBtn{
     position: absolute;
-    right: 12px;
+    right: 0px;
     z-index: 2;
     font-size: 50px;
     cursor: pointer;
     display: block;
+    color: red;
+    border-radius: 50%;
+
+    
 }
 #rightBtn{
     z-index: 2;
     position: absolute;
-    left: 12px;
+    left: 0px;
     font-size: 50px;
     cursor: pointer;
     display: block;
+    color: red;
 }
 
 
+footer{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin:  60px auto;
+}
+
+.testInFooter{
+    width: 100%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testInFooter h2{
+    text-align: center;
+    margin-block-start: 30px;
+    font-size: 40px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: #4895ef;
+}
+
+.testInFooter h3{
+    text-align: center;
+    margin-block-start: 20px;
+    font-size: 40px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    color: red;
+}
+
+form div {
+    margin-block-start: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+form div input{
+    padding: 20px;
+    margin: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+form div input::placeholder{
+    font-size: 20px;
+    color: black;
+}
 
 
-
-
-
-
-
+.inputsumbit{
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
 
 
 
@@ -150,59 +211,99 @@ li h4{
 @media screen and (max-width:500px) {
     header{
         min-height: 200px;
-      }
+    }
       
-      .titelFirstPage{
+    .titelFirstPage{
           font-size: 25px;
-      }
+    }
       
-      #cardIcon{
+    #cardIcon{
           margin-top: 10px;
           font-size: 30px;
-      }
+    }
       
       
       
-      .SecondTitelFirstPage{
+    .SecondTitelFirstPage{
           max-width: 250px;
           padding: 20px;
           margin: 30px auto;
           text-align: center;
           font-size: 19px;
         
-      }
+    }
       
-      .theDiscrishin{
+    .theDiscrishin{
           margin: 20px auto;
-      }
+    }
       
-      .pargrafhs{
+    .pargrafhs{
          max-width: 300px;
           margin: 25px auto;
           font-weight: 200;
           font-size: 18px;
-      }
+    }
       
-      li{
+    li{
           display: flex;
           align-items: center;
           list-style: none;
           margin-inline-start: 30px;
           margin-block-start: 10px;
-      }
-      li img{
+    }
+
+    li img{
           width: 20px;
-      }
+    }
       
-      li h4{
+    li h4{
           font-size: 19px;
           font-weight: 500;
           margin-block-start: 10px;
           font-family: 'Noto Sans Hebrew', sans-serif;
-      }
+    }
       
-      #cardImg{
+    #cardImg{
           width: 150px;
           height: 150px;
-      }
+    }
+
+    .testInFooter h2{
+        font-size: 26px;
+    }
+    
+    .testInFooter h3{
+        font-size: 30px;
+        margin-block-end: 15px;
+    }
+    
+    form div {
+        margin-block-start: 30px;
+        flex-wrap: wrap;
+    }
+    
+    form div input{
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin: 0;
+    }
+    form div input::placeholder{
+        font-size: 20px;
+        color: black;
+    }
+    
+    
+    .inputsumbit{
+        cursor: pointer;
+        margin: 0 auto;
+        padding: 20px;
+        width: 400px;
+        width: 100px;
+        border-radius: 50px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+    }
+    
 }
