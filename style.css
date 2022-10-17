@@ -286,7 +286,7 @@ form div input::placeholder{
         padding: 20px;
         border-radius: 10px;
         font-size: 20px;
-        margin: 0;
+        margin: 25px;
     }
     form div input::placeholder{
         font-size: 20px;
@@ -296,7 +296,7 @@ form div input::placeholder{
     
     .inputsumbit{
         cursor: pointer;
-        margin: 0 auto;
+        margin-inline-start: 25px;
         padding: 20px;
         width: 400px;
         width: 100px;
